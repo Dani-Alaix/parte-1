@@ -1,18 +1,63 @@
 *
-    padding: 0px
-    margin: 0px
-body
-	background: #DCDBDB
+	padding: 0px
+	margin: 0px
+body 
 	min-width: 768px
 	max-width: 3000px
 	margin: 1%
-   	header
+	header
 		text-align: center
 	header, div, footer
-		background: #8C8B8B
+		background: #FBF2E5
 		border-radius: 10px
 		margin: 5px
 		overflow: hidden
 		padding: 5px
-	.main 
-		width: 100% 
+		border: 2px solid #CECECE
+	.main
+		width: 100%
+	section
+		float: left
+		#one
+			width: 25%
+			div
+				background: #E5BED9
+				height: 300px
+		#two
+			width: 50%
+			div
+				background: #FCFDBF
+			#pro
+				height: 450px
+			#tar
+				height: 300px
+			#dif 
+				height: 150px
+		#three
+			width: 25%
+			div
+				background: #AFEAED
+			#rec, #her 
+				height: 375px
+			#agr
+				height: 150px
+	h1, h3 
+		text-transform: uppercase
+	footer 
+		clear: both
+		font-size: 30px
+@media only screen and (max-width: 1023px)
+	body 
+		section 
+			overflow: hidden
+			#one
+				width: 40%
+			#two
+				width: 60%
+			#three
+				width: 100%
+@media only screen and (max-width: 768px)
+	body 
+		section 
+			#one, #two, #three
+				width: 100%
