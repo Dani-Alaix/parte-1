@@ -13,6 +13,14 @@ body {
     overflow: hidden;
     padding: 5px;
     border: 2px solid #CECECE; }
+    body header #note, body div #note, body footer #note {
+      width: 95%;
+      max-height: 60%;
+      direction: rtl;
+      display: block;
+      padding: 10px;
+      border-radius: 7px;
+      font: 13px Tahoma; }
     body header input, body div input, body footer input {
       direction: rtl;
       width: 100%;

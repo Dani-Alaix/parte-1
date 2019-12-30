@@ -4,6 +4,12 @@
 		<meta charset="utf-8">
 		<title> Parte 1</title>
 		<link rel="stylesheet" type="text/css" href="estilo.css"/>
+		<script>
+			function textAreaAdjust(o) {
+				o.style.height = "1px";
+				o.style.height = (25+o.scrollHeight)+"px";
+}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -14,17 +20,17 @@
 				<div id="com">
 					<img src="assets/icon-1.png">
 					<h3>Competencias clave </h3>
-					<input type ="text" placeholder = "Escriba las palabras clave del proyecto">
+					<textarea id="note" onkeyup="textAreaAdjust(this)" placeholder ="Competencias clave"></textarea>
 				</div>
 				<div id="est">
 					<img src="assets/icon-2.png">
 					<h3>Estándares de aprendizaje </h3>
-					<input type ="text" placeholder = "Escriba los estándares de aprendizaje del proyecto">
+					<textarea id="note" onkeyup="textAreaAdjust(this)" placeholder ="Estándares de aprendizaje"></textarea>
 				</div>
 				<div id="met">
 					<img src="assets/icon-3.png">
 					<h3>Métodos de evaluación </h3>
-					<input type ="text" placeholder = "Escriba los métodos de evaluación del proyecto">
+					<textarea id="note" onkeyup="textAreaAdjust(this)" placeholder ="Métodos de evaluación"></textarea>
 				</div>		
 			</section>	
 
@@ -32,17 +38,17 @@
 				<div id="pro">
 					<img src="assets/icon-4.png">
 					<h3>Producto final</h3>	
-					<input type ="text" placeholder = "Escriba el producto final">
+					<textarea id="note" onkeyup="textAreaAdjust(this)" placeholder ="Producto final"></textarea>
 				</div>
 				<div id="tar">
 					<img src="assets/icon-5.png">
 					<h3>Tareas</h3>
-					<input type ="text" placeholder = "Escriba las tareas del proyecto">
+					<textarea id="note" onkeyup="textAreaAdjust(this)" placeholder ="Tareas"></textarea>
 				</div>
 				<div id="dif">
 					<img src="assets/icon-6.png">
 					<h3>Difusión </h3>
-					<input type ="text" placeholder = "Escriba la difusión">
+					<textarea id="note" onkeyup="textAreaAdjust(this)" placeholder ="Difusión"></textarea>
 				</div>
 			</section>
 
@@ -50,17 +56,17 @@
 				<div id="rec">
 					<img src="assets/icon-7.png">
 					<h3>Recursos</h3>
-					<input type ="text" placeholder = "Escriba los recursos del proyecto">
+					<textarea id="note" onkeyup="textAreaAdjust(this)" placeholder ="Recursos"></textarea>
 				</div>
 				<div id="her">
 					<img src="assets/icon-8.png">
 					<h3>Herramientas tic</h3>
-					<input type ="text" placeholder = "Escriba las herramientas para el proyecto">
+					<textarea id="note" onkeyup="textAreaAdjust(this)" placeholder ="Herramientas tic"></textarea>
 				</div>
 				<div id="agr">
 					<img src="assets/icon-9.png">
-					<h3>Agrupamientos / Organización</h3>
-					<input type ="text" placeholder = "Escriba los grupos u organizaciones para el proyecto">
+					<h3>Organización</h3>
+					<textarea id="note" onkeyup="textAreaAdjust(this)" placeholder ="Agrupamientos / Organización"></textarea>
 				</div>
 			</section>
 		</section>
