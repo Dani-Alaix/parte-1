@@ -17,8 +17,9 @@ body {
     body header input, body div input, body footer input {
       direction: rtl;
       width: 100%;
-      height: 50%;
-      vertical-align: middle; }
+      height: 30%;
+      position: relative;
+      vertical-align: bottom; }
   body .main {
     width: 100%; }
   body section {
@@ -32,6 +33,9 @@ body {
       width: 50%; }
       body section #two div {
         background: #FCFDBF; }
+        body section #two div input {
+          width: 50%;
+          height: 30%; }
       body section #two #pro {
         height: 450px; }
       body section #two #tar {
